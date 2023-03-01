@@ -96,6 +96,10 @@
               }}
               onLoadStart={() => setisLoading(true)}
               onLoadEnd={() => setisLoading(false)}
+              allowsProtectedMedia
+              allowsFullscreenVideo
+              allowsInlineMediaPlayback
+              mediaPlaybackRequiresUserAction={false}
             />
   
             {isLoading && (
